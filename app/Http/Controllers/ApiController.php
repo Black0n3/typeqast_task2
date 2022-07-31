@@ -10,9 +10,17 @@ class ApiController extends Controller
 {
     use GetAndCollectData;
 
-    public function films()
+    public function api()
     {
-
+        $array = [
+            "people" => "api/people/",
+            "planets"=> "api/planets/",
+            "films"=> "api/films/",
+            "species"=> "api/species/",
+            "vehicles"=> "api/vehicles/",
+            "starships"=> "api/starships/"
+        ];
+        return $array;
     }
 
 

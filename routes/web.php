@@ -14,3 +14,4 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::view('/', 'sites.homepage')->name('homepage');
+Route::view('/documentation', 'sites.docs')->name('docs');

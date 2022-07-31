@@ -68,7 +68,7 @@ return [
     |
     */
 
-    'app_url' => null,
+    'app_url' => 'https://port-3000-tabardi-demo-blackone.preview.codeanywhere.com/Typeqast/task2/public',
 
     /*
     |--------------------------------------------------------------------------

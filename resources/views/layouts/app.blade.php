@@ -36,7 +36,7 @@
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is('app/work-orders*') ? 'active' : '' }}" href="{{ route('homepage') }}">Documentation</a>
+                            <a class="nav-link {{ Request::is('documentation') ? 'active' : '' }}" href="{{ route('docs') }}">Documentation</a>
                         </li>
 
 

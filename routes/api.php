@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\ApiController;
 use App\Http\Controllers\FilmsController;
 use App\Http\Controllers\PlanetsController;
 use App\Http\Controllers\StarshipsController;
@@ -18,6 +19,8 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+
+Route::get('/', [ApiController::class, 'api']);
 
 Route::get('films', [FilmsController::class, 'index']);
 Route::get('films/{id}/show_all', [FilmsController::class, 'show_all']);
