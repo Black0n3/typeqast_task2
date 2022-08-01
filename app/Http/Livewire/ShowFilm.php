@@ -20,7 +20,7 @@ class ShowFilm extends Component
 
     public function mount()
     {
-        $this->films = $this->getDataByFullUrl(env('APP_URL').'api/films');
+        $this->films = $this->getDataByFullUrl(env('APP_URL').'/api/films');
     }
 
     public function render()
