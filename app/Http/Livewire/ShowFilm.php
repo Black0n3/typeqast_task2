@@ -39,7 +39,7 @@ class ShowFilm extends Component
             $url_parts = explode("/", $this->film['url']);
             $url_id = $url_parts[count($url_parts)-2];
 
-            $this->film = $this->getDataByFullUrl(env('APP_URL').'api/films/'.$url_id.'/show_all');
+            $this->film = $this->getDataByFullUrl(env('APP_URL').'/api/films/'.$url_id.'/show_all');
         }
 
 
