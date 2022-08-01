@@ -1,10 +1,6 @@
 @extends('layouts.app')
 @section('content')
-<?php
 
-
-@endenv
-?>
 <div class="row justify-content-center">
     <div class="col-sm-12">
         <h1>Documentation</h1>

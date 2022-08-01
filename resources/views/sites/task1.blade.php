@@ -44,33 +44,7 @@
             <h3 class="mt-4 pt-4">2 . Showing all planets created after 12/04/2014</h3>
             <p><strong>Endpoint</strong></p>
             <ul>
-                <li><code>/api/planets/?filter=(:type):(:value)</code></li>
-            </ul>
-            <p><strong>Example request:</strong></p>
-            <pre><code>/api/planets?date=2014-04-12</code></pre>
-            <p><strong>Example response:</strong></p>
-            <pre><code>HTTP/1.0 200 OK
-                Content-Type: application/json
-                {
-                    array[
-                        "name": string,
-                        "rotation_period": integer,
-                        "orbital_period": integer,
-                        "diameter": integer,
-                        "climate": string,
-                        "gravity": string,
-                        "terrain": string,
-                        "surface_water": integer,
-                        "population": integer,
-                        "residents": array[],
-                        "films": array[],
-                    ],
-                }</code></pre>
-
-            <h3 class="mt-4 pt-4">2 . Showing all planets created after 12/04/2014</h3>
-            <p><strong>Endpoint</strong></p>
-            <ul>
-                <li><code>/api/planets/?DATE=:date(YYYY-MM-DD)</code></li>
+                <li><code>/api/planets/?date=:date(YYYY-MM-DD)</code></li>
             </ul>
             <p><strong>Example request:</strong></p>
             <pre><code>/api/planets?date=2014-04-12</code></pre>
