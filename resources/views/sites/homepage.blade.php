@@ -10,7 +10,7 @@
 <div class="row justify-content-center">
     <div class="col-sm-6">
         <h3>Showing all information of a Films </h3>
-        {{-- @livewire('show-film') --}}
+        @livewire('show-film')
     </div>
 </div>
 @endsection
