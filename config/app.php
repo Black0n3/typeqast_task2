@@ -54,6 +54,8 @@ return [
 
     'url' => env('APP_URL', 'http://localhost'),
 
+    'api_url' => env('API_URL', 'https://swapi.dev/api/'),
+
     'asset_url' => env('ASSET_URL', null),
 
     /*

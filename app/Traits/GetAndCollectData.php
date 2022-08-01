@@ -6,7 +6,7 @@ trait GetAndCollectData
 {
     protected function getData($url = null)
     {
-        $api_url = 'https://swapi.dev/api/';
+        $api_url = config('app.api_url');
         $response = Http::get($api_url . $url);
         $jsonData = $response->json();
 
