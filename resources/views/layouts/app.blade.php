@@ -32,11 +32,19 @@
                     <!-- Left Side Of Navbar -->
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is('/') ? 'active' : '' }}" href="{{ route('homepage') }}">Homepage</a>
+                            <a class="nav-link" href="{{ route('homepage') }}">Homepage</a>
                         </li>
 
                         <li class="nav-item">
-                            <a class="nav-link {{ Request::is('documentation') ? 'active' : '' }}" href="{{ route('docs') }}">Documentation</a>
+                            <a class="nav-link" href="{{ route('task1') }}">API Task</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('task2') }}">Frontend Task</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="{{ route('docs') }}">Documentation</a>
                         </li>
 
 

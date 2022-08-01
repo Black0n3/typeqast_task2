@@ -9,8 +9,11 @@
 <hr>
 <div class="row justify-content-center">
     <div class="col-sm-6">
-        <img class="img-fluid" src="https://upload.wikimedia.org/wikipedia/commons/5/5a/Star_Wars_Logo..png" alt="starwars logo">
-
+        <div class="alert alert-info">
+            Moguće duže vrijeme čekanja zbog sporog API-ja ukoliko se prvi put očitava odabrani film.
+        </div>
+        <h3>Showing all information of a Films </h3>
+        @livewire('show-film')
     </div>
 </div>
 @endsection
